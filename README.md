@@ -1,5 +1,11 @@
 # Neural-Network-Balance-Scale
 
+**Genel Bilgiler**
+-Bu Çalışma seçmeli olarak almış olduğum Bulunık Mantık ve Yapay Sinir Ağlarını Giriş isimli ders kapsamında final projesi olarak hazırlanıştır.
+-Proje kapsamında kullanılan Veri Tabanı UCI Repositories sayfasından alınmıştır. Projenin doğru çalışması için veri tabanı üzerinde aşağıda bahsedilen değişikliklerin yapılması gerekmektedir.
+
+Veri Tabanı : [Balance Scale](https://archive.ics.uci.edu/ml/datasets/Balance+Scale)
+
 **ÖZET**
 
    Yapılan çalışmanın temel amacı girilen veri seti üzerinde terazinin dengede olup olmadığını tahmin etmektir. Yapılan çalışmada oluşturulan yapay sinir ağı kendisine verilen veri seti üzerinde sınıflandırma yaparak çıkış değerlerinin tahminini öğrenmeye çalışır. Sınıflandırmanın amacı, basitçe bir veri kümesi (data set) üzerinde tanımlı olan çeşitli sınıflar arasında veriyi dağıtmaktır. Sınıflandırma algoritmaları, verilen eğitim kümesinden bu dağılım şeklini öğrenirler ve daha sonra sınıfının belirli olmadığı test verileri geldiğinde doğru şekilde sınıflandırmaya çalışırlar. Oluşturulan yapay sinir ağı da terazinin giriş değerlerine göre terazinin 3 denge durumlarından (dengede , sağda ve solda) birini tahmin eder. Bu amaçla daha önce oluşturulmuş Balance Scale isimli veri tabanından yardım alınarak yapay sinir ağının öğrenmesi sağlanmıştır. Oluşturulan yapay sinir ağı problem gereksinimlerine göre giriş ve çıkışları belirlenerek çok katmanlı bir yapay sinir ağı olarak şekillendirilmiştir. Yapılan testler sonucunda bu yapay sinir ağı %91.6800 doğruluk ile çıkışları tahmin etmiştir.
@@ -110,15 +116,15 @@ Grafik 3. alfaya göre doğruluk oranları
 
 **2.2.4 Hata miktarı ve epock sayısı**
 
-         Belirlenen nöron sayısı , alfa değeri ve nu sayısının değeri ile yapay sinir ağı çalıştırıldığında 4558 epock ve 0.0068 hata ile eğitimini tamamlamıştır. Eğitim sonucunda yapılan testlerde %91.6800 doğruluk oranı ile test tamamlamıştır.
+   Belirlenen nöron sayısı , alfa değeri ve nu sayısının değeri ile yapay sinir ağı çalıştırıldığında 4558 epock ve 0.0068 hata ile eğitimini tamamlamıştır. Eğitim sonucunda yapılan testlerde %91.6800 doğruluk oranı ile test tamamlamıştır.
 
 **2.2.5 Yapay Sinir Ağındaki Giriş ve Çıkış Formatları**
 
-        Kullanılan veri setine bağlı olarak Yapay sinir ağı 4 giriş olarak tasarlandı. Veri seti üzerinde giriş için belirlenen öz nitelikler left-weight, left-distance, right-weight, right-distance öznitelikleridir ve bu öznitelikler 1 ile 5 arasında tam sayı değerleri almaktadır. Giriş için kullanılan özniteliklerin değerleri üzerinde herhangi bir düzenleme yapılmamıştır.  Ancak Çıkış değerleri için kullanılan L,B,R değerleri ikili tabanda ifade edilerek sayısal veriler üzerinde işlem yapma olanağı tanınmıştır. B çıkışı için 11, L çıkışı için 10 ve R çıkışı için 01 değeri kullanılmıştır.
+   Kullanılan veri setine bağlı olarak Yapay sinir ağı 4 giriş olarak tasarlandı. Veri seti üzerinde giriş için belirlenen öz nitelikler left-weight, left-distance, right-weight, right-distance öznitelikleridir ve bu öznitelikler 1 ile 5 arasında tam sayı değerleri almaktadır. Giriş için kullanılan özniteliklerin değerleri üzerinde herhangi bir düzenleme yapılmamıştır.  Ancak Çıkış değerleri için kullanılan L,B,R değerleri ikili tabanda ifade edilerek sayısal veriler üzerinde işlem yapma olanağı tanınmıştır. B çıkışı için 11, L çıkışı için 10 ve R çıkışı için 01 değeri kullanılmıştır.
 
 **2.2.6 Verinin İşlenebilir duruma getirilmesine yönelik çalışmalar**
 
-        2.1. inci bölümde kullanılan veri tabanı hakkında genel bilgiler verilmişti. Bu bölümde de kullanılan veri tabanının içerisindeki verilerin işlenebilir hale getirilmesi için yapılan çalışmalardan adım adım bahsedilecektir. Veri Seti içerisinde 625 örnek bulunmakta ve bu örnekler 5 adet öz niteliğe sahiptir. Görsel 4 &#39;te Veri setinin hiç işlenmemiş hali verilmiştir. Görsel üzerinden de anlaşılacağı üzere B,L,R öznitelikleri çıkışları ve diğer 4 öznitelik girişleri ifade etmektedir.
+   2.1. inci bölümde kullanılan veri tabanı hakkında genel bilgiler verilmişti. Bu bölümde de kullanılan veri tabanının içerisindeki verilerin işlenebilir hale getirilmesi için yapılan çalışmalardan adım adım bahsedilecektir. Veri Seti içerisinde 625 örnek bulunmakta ve bu örnekler 5 adet öz niteliğe sahiptir. Görsel 4 &#39;te Veri setinin hiç işlenmemiş hali verilmiştir. Görsel üzerinden de anlaşılacağı üzere B,L,R öznitelikleri çıkışları ve diğer 4 öznitelik girişleri ifade etmektedir.
 
 Görsel 4. Veri setinin hiç işlenmemiş hali
 
