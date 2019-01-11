@@ -1,7 +1,7 @@
 # Neural-Network-Balance-Scale
 **ÖZET**
 
-      Yapılan çalışmanın temel amacı girilen veri seti üzerinde terazinin dengede olup olmadığını tahmin etmektir. Yapılan çalışmada oluşturulan yapay sinir ağı kendisine verilen veri seti üzerinde sınıflandırma yaparak çıkış değerlerinin tahminini öğrenmeye çalışır. Sınıflandırmanın amacı, basitçe bir veri kümesi (data set) üzerinde tanımlı olan çeşitli sınıflar arasında veriyi dağıtmaktır. Sınıflandırma algoritmaları, verilen eğitim kümesinden bu dağılım şeklini öğrenirler ve daha sonra sınıfının belirli olmadığı test verileri geldiğinde doğru şekilde sınıflandırmaya çalışırlar. Oluşturulan yapay sinir ağı da terazinin giriş değerlerine göre terazinin 3 denge durumlarından (dengede , sağda ve solda) birini tahmin eder. Bu amaçla daha önce oluşturulmuş Balance Scale isimli veri tabanından yardım alınarak yapay sinir ağının öğrenmesi sağlanmıştır. Oluşturulan yapay sinir ağı problem gereksinimlerine göre giriş ve çıkışları belirlenerek çok katmanlı bir yapay sinir ağı olarak şekillendirilmiştir. Yapılan testler sonucunda bu yapay sinir ağı %91.6800 doğruluk ile çıkışları tahmin etmiştir.
+ **   Yapılan çalışmanın temel amacı girilen veri seti üzerinde terazinin dengede olup olmadığını tahmin etmektir. Yapılan çalışmada oluşturulan yapay sinir ağı kendisine verilen veri seti üzerinde sınıflandırma yaparak çıkış değerlerinin tahminini öğrenmeye çalışır. Sınıflandırmanın amacı, basitçe bir veri kümesi (data set) üzerinde tanımlı olan çeşitli sınıflar arasında veriyi dağıtmaktır. Sınıflandırma algoritmaları, verilen eğitim kümesinden bu dağılım şeklini öğrenirler ve daha sonra sınıfının belirli olmadığı test verileri geldiğinde doğru şekilde sınıflandırmaya çalışırlar. Oluşturulan yapay sinir ağı da terazinin giriş değerlerine göre terazinin 3 denge durumlarından (dengede , sağda ve solda) birini tahmin eder. Bu amaçla daha önce oluşturulmuş Balance Scale isimli veri tabanından yardım alınarak yapay sinir ağının öğrenmesi sağlanmıştır. Oluşturulan yapay sinir ağı problem gereksinimlerine göre giriş ve çıkışları belirlenerek çok katmanlı bir yapay sinir ağı olarak şekillendirilmiştir. Yapılan testler sonucunda bu yapay sinir ağı %91.6800 doğruluk ile çıkışları tahmin etmiştir.
 
 #### 1.GİRİŞ
 
@@ -39,7 +39,7 @@ Tablo 2. Veri Setine ait bir kesit
 
 Görsel 1. Problem gösterimi
 
- ![](data:image/*;base64,=)
+![alt text](https://github.com/HamzaTas/Neural-Network-Balance-Scale/blob/master/ss/1.png)
 
 **2.2 Yapılan İş : Yapay Sinir Ağı ile Terazinin denge durumun belirlenmesi**
 
