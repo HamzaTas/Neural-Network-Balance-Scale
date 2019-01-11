@@ -1,8 +1,8 @@
 # Neural-Network-Balance-Scale
 
 **Genel Bilgiler**
--Bu Çalışma seçmeli olarak almış olduğum Bulunık Mantık ve Yapay Sinir Ağlarını Giriş isimli ders kapsamında final projesi olarak hazırlanıştır.
--Proje kapsamında kullanılan Veri Tabanı UCI Repositories sayfasından alınmıştır. Projenin doğru çalışması için veri tabanı üzerinde aşağıda bahsedilen değişikliklerin yapılması gerekmektedir.
+-  Bu Çalışma seçmeli olarak almış olduğum Bulunık Mantık ve Yapay Sinir Ağlarını Giriş isimli ders kapsamında final projesi olarak hazırlanıştır.
+-  Proje kapsamında kullanılan Veri Tabanı UCI Repositories sayfasından alınmıştır. Projenin doğru çalışması için veri tabanı üzerinde aşağıda bahsedilen değişikliklerin yapılması gerekmektedir.
 
 Veri Tabanı : [Balance Scale](https://archive.ics.uci.edu/ml/datasets/Balance+Scale)
 
@@ -167,4 +167,4 @@ Görsel 7. Hedef veriler
 
 #### 3. SONUÇ
 
-   Bu çalışmada, edinilen veri tabanı kullanılarak yapay sinir ağları ile bir terazinin denge durumu tahmin mekanizması oluşturulmuştur. Veri tabanındaki her bir örneğe ait öznitelik değerleri oluşturulan yapay sinir ağının girişlerine verilmiş ve hata oranı belli bir seviyenin altına inene kadar geri besleme yapılarak ağ eğitilmiştir. Eğitim sırasında 625 örneğin tamamı kullanılmıştır. Yine aynı şekilde test aşamasında da 625 örnek için yapay sinir ağı test edilmiştir. Eğitim ve testte kullanılan örneklerin 288 tanesi L , 288 tane R ve 49 tanesi B sınıflarına aittir. Ağın başarısı çoğu zaman %85&#39;in üzerinde çıkmış ve yeniden ağırlıklandırılarak defalarca denenmiş ve en iyi sonucu ağırlık ve bias değerlerine 0 verildiği durumda çıktığı görülmüştür. Ağın en iyi başarı oranı 2 nöron kullanılarak, nu değerini 0.6 ve alfa değerini 0.8 alındığında %91.68 değeri ile çıktığı gözlemlen dirilmiştir.
+   Bu çalışmada, edinilen veri tabanı kullanılarak yapay sinir ağları ile bir terazinin denge durumu tahmin mekanizması oluşturulmuştur. Veri tabanındaki her bir örneğe ait öznitelik değerleri oluşturulan yapay sinir ağının girişlerine verilmiş ve hata oranı belli bir seviyenin altına inene kadar geri besleme yapılarak ağ eğitilmiştir. Eğitim sırasında 625 örneğin tamamı kullanılmıştır. Yine aynı şekilde test aşamasında da 625 örnek için yapay sinir ağı test edilmiştir. Eğitim ve testte kullanılan örneklerin 288 tanesi L , 288 tane R ve 49 tanesi B sınıflarına aittir. Ağın başarısı çoğu zaman %85&#39;in üzerinde çıkmış ve yeniden ağırlıklandırılarak defalarca denenmiş ve en iyi sonucu ağırlık ve bias değerlerine 0 verildiği durumda çıktığı görülmüştür. Ağın en iyi başarı oranı 2 nöron kullanılarak, nu değerini 0.6 ve alfa değerini 0.8 alındığında %91.68 değeri ile çıktığı gözlemlenmiştir.
