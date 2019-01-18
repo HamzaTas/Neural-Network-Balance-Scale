@@ -1,7 +1,7 @@
 # Neural-Network-Balance-Scale
 
 **Genel Bilgiler**
--  Bu Çalışma seçmeli olarak almış olduğum Bulunık Mantık ve Yapay Sinir Ağlarını Giriş isimli ders kapsamında final projesi olarak hazırlanıştır.
+-  Bu Çalışma seçmeli olarak almış olduğum Bulunık Mantık ve Yapay Sinir Ağlarına Giriş isimli ders kapsamında final projesi olarak hazırlanıştır.
 - Proje Matlab Ortamında hazırlanmıştır.
 -  Proje kapsamında kullanılan Veri Tabanı UCI Repositories sayfasından alınmıştır. Projenin doğru çalışması için veri tabanı üzerinde aşağıda bahsedilen değişikliklerin yapılması gerekmektedir.
 
